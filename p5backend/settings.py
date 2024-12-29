@@ -36,6 +36,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['8000-raypt808-p5backend-si1bgp1jdzg.ws-eu117.gitpod.io']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-raypt808-p5backend-si1bgp1jdzg.ws-eu117.gitpod.io',
+]
+
 
 # Application definition
 
