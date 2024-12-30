@@ -34,10 +34,13 @@ SECRET_KEY = 'django-insecure-h_@p%1@53q3j_c)y05^=qf(!95c12qrk6q@uqzky9o2xo_4%yf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-raypt808-p5backend-si1bgp1jdzg.ws-eu117.gitpod.io']
+ALLOWED_HOSTS = ['8000-raypt808-p5backend-si1bgp1jdzg.ws-eu117.gitpod.io',
+                 '8000-raypt808-p5backend-lqnmw5t1rmu.ws-eu117.gitpod.io'
+]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-raypt808-p5backend-si1bgp1jdzg.ws-eu117.gitpod.io',
+    'https://8000-raypt808-p5backend-lqnmw5t1rmu.ws-eu117.gitpod.io',
 ]
 
 
@@ -56,6 +59,7 @@ INSTALLED_APPS = [
 
     'profiles',
     'posts',
+    'comments',
 ]
 
 MIDDLEWARE = [
