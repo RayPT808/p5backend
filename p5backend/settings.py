@@ -61,30 +61,30 @@ CSRF_TRUSTED_ORIGINS = [
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'cloudinary_storage',
-    'django.contrib.staticfiles',
-    'cloudinary',
-    'rest_framework',
-    'django_filters',
-    'rest_framework.authtoken',
-    'dj_rest_auth',
-    'django.contrib.sites',
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
-    'dj_rest_auth.registration',
-
-    'profiles',
-    'posts',
-    'comments',
-    'likes',
-    'followers',
+'django.contrib.admin',
+'django.contrib.auth',
+'django.contrib.contenttypes',
+'django.contrib.sessions',
+'django.contrib.messages',
+'django.contrib.sites',  
+'django.contrib.staticfiles',
+'cloudinary_storage',
+'cloudinary',
+'rest_framework',
+'django_filters',
+'rest_framework.authtoken',
+'allauth',
+'allauth.account',
+'allauth.socialaccount',
+'dj_rest_auth',
+'dj_rest_auth.registration',
+'profiles',
+'posts',
+'comments',
+'likes',
+'followers',
 ]
+
 SITE_ID = 1
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
